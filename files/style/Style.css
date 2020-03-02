@@ -1,0 +1,220 @@
+* {
+    font-family: "Arial";
+}
+
+
+/*size*/
+
+@media only screen and (max-width: 768px) {
+    p.site-title {
+        font-size: 35px;
+    }
+    h1.t-carousel {
+        font-size: 35px;
+    }
+    div.carousel-item {
+        height: 512px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    p.site-title {
+        font-size: 25px;
+        margin-left: -8%;
+        margin-top: 4%;
+    }
+    h1.t-carousel {
+        font-size: 25px;
+    }
+    div.carousel-item {
+        height: 300px;
+    }
+}
+
+.navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.site-branding {
+    width: 100%;
+    text-align: center;
+    padding: 2% 3% 0% 3%;
+}
+
+.site-description {
+    font-size: 0.8em;
+    margin-top: -1%;
+}
+
+a:hover {
+    color: #806000;
+}
+
+a {
+    color: black;
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.Nav_ {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0% 1% 2% 1%;
+}
+
+.slide_dim {
+    height: 100%;
+    width: 100%;
+}
+
+.pos {
+    margin-right: 5%;
+}
+
+.pos_log {
+    margin-left: 3%;
+}
+
+.lessons {
+    font-size: 1.2em;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+}
+
+
+/*
+navbar
+*/
+
+.nav-pos {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    background-color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#myCarousel {
+    z-index: 0;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: gray;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #000000;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/*carouselle*/
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 730px;
+}
+
+
+/*dawdawdawdawdawdawdawdw*/
+
+.drop {
+    cursor: pointer;
+    display: block;
+    background: whitesmoke;
+}
+
+input[type="checkbox"] {
+    display: none;
+    /* hide the checkboxes */
+}
+
+input+.drop+div {
+    display: none;
+}
+
+input:checked+.drop+div {
+    display: block;
+}
+
+.b-line {
+    border: solid gray 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+em {
+    color: gray;
+}

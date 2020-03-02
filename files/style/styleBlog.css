@@ -1,0 +1,93 @@
+main {
+    background-image: url('../assets/images/Blog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bg-blog {
+    background-color: #33cc33;
+}
+
+.big {
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+.center1 {
+    width: 100%;
+}
+
+.sx {
+    margin-left: 6%;
+}
+
+.center {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    font-family: "Arial";
+    color: black;
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+#SS {
+    width: 75%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sos {
+    position: relative;
+    top: 0;
+    right: 40px;
+}
+
+#soo {
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+
+#font {
+    color: black;
+}
+
+#dietrto {
+    background-color: black;
+}
+
+
+/* dimensionamento*/
+
+.bigger {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    div.bigger {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div.bigger {
+        width: 98%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

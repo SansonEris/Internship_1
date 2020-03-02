@@ -1,0 +1,95 @@
+.prova1 {
+    width: 100%;
+    text-align: center;
+    padding: 2% 3% 0% 3%;
+    filter: no;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    ;
+}
+
+p,
+a {
+    color: black;
+    z-index: 2;
+}
+
+.private {
+    margin-left: 5%;
+    font-size: 1.2em;
+    width: 47%;
+    /*text-align: center;*/
+}
+
+.text-dx {
+    float: left;
+    display: block;
+}
+
+#is {
+    float: left;
+    display: block;
+}
+
+#fo {
+    font-size: 1.2em;
+    margin-left: 55%;
+}
+
+.ristretto {
+    width: 97%;
+}
+
+.img {
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.up {
+    position: absolute;
+}
+
+.dow {
+    margin-top: 100%;
+}
+
+body {
+    /* Full height */
+    height: 100%;
+}
+
+.center {
+    width: 65%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* dimensionamento*/
+
+@media only screen and (max-width: 768px) {
+    div.center {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div.center {
+        width: 90%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

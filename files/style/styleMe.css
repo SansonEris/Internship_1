@@ -1,0 +1,58 @@
+* {
+    font-family: "Arial";
+    color: grey;
+}
+
+#fS {
+    width: 65%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: gray;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+}
+
+h7 {
+    color: black;
+}
+
+.space {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.pos {
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    float: left;
+    color: gray;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 1%;
+}
+
+.posd {
+    width: 52%;
+    text-align: center;
+    margin-left: auto;
+    color: gray;
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 1%
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
